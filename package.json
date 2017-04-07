@@ -1,0 +1,25 @@
+{
+  "name": "liri-node",
+  "version": "1.0.0",
+  "description": "Liri gets that data!",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asconwe/liri-node.git"
+  },
+  "keywords": [
+    "Liri"
+  ],
+  "author": "August (GW Bootcamp)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asconwe/liri-node/issues"
+  },
+  "homepage": "https://github.com/asconwe/liri-node#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
