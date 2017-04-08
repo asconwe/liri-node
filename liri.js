@@ -45,6 +45,7 @@ var getMovie = function getMovie(movie) {
   if (movie === undefined) {
     movie = "Mr. Nobody";
   }
+  
   var qUrl = 'http://www.omdbapi.com/?t=' + movie;
   request(qUrl, function(error, response, body) {
     if (error) {
@@ -82,4 +83,3 @@ var actions = {
 }
 
 actions[action](arg);
-
