@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/asconwe/liri-node#readme",
   "dependencies": {
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
   }
 }
